@@ -24,7 +24,7 @@ class Song
     @@artists.uniq
   end 
   
-  def self.artists_count
+  def self.artist_count
     artists_count = Hash.new(0)
      @@artists.each {|value| artists_count[value] += 1}
     artists_count
