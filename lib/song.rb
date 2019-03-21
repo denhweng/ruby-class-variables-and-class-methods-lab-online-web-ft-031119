@@ -6,4 +6,6 @@ class Song
     @@count
   end
   
+  @@genres = []
+  
   
