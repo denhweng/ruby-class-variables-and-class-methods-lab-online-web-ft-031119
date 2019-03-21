@@ -12,4 +12,8 @@ class Song
     @@genres.uniq
   end
   
+  @@artists = []
   
+  def self.artists
+    @@artist.uniq 
+  end
