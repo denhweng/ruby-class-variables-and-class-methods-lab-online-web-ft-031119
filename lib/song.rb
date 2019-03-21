@@ -27,4 +27,4 @@ class Song
     artists_count = Hash.new(0)
      @@artists.each {|value| artists_count[value] += 1}
      
-  
+  def initialize(name, artist, genre)
