@@ -23,4 +23,5 @@ class Song
     @@artist.uniq 
   end 
   
-  
+  def self.artists_count
+    artists_count = Hash.new(0)
