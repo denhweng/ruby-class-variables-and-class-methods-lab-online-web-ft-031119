@@ -28,3 +28,4 @@ class Song
      @@artists.each {|value| artists_count[value] += 1}
      
   def initialize(name, artist, genre)
+    
